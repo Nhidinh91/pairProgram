@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
-import './Greetings.css';
+import './Components.css';
+
 const Greetings = ({lang, children}) => {
     let getGreet = (lang) => {
         switch (lang) {

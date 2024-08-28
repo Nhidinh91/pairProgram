@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import './idCard.css';
+import './Components.css';
 
 const IdCard = ({firstName, lastName, gender, height, birth, picture})=>{
     return(

@@ -1,10 +1,11 @@
 import './App.css';
 import IdCard from './idCard.js';
 import Greetings from './Greetings.js';
+import Random from './Random.js';
 function App() {
   return (
     <>
-      <div className = "idCard">
+      <div className="idCard">
         <IdCard
           lastName="Doe"
           firstName="John"
@@ -24,11 +25,15 @@ function App() {
         />
       </div>
       <div>
-      <Greetings lang="de">Ludwig</Greetings>
-      <Greetings lang="fr">François</Greetings>
-      <Greetings lang="en">Peter</Greetings>
-      <Greetings lang="es">Luka</Greetings>
-      <Greetings lang="fi">Timo</Greetings>
+        <Greetings lang="de">Ludwig</Greetings>
+        <Greetings lang="fr">François</Greetings>
+        <Greetings lang="en">Peter</Greetings>
+        <Greetings lang="es">Luka</Greetings>
+        <Greetings lang="fi">Timo</Greetings>
+      </div>
+      <div>
+        <Random min={1} max={6} />
+        <Random min={1} max={100} />
       </div>
     </>
   );
