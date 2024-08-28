@@ -24,7 +24,10 @@ function App() {
         />
       </div>
       <div>
-      <Greetings lang="de">Ludwig</Greetings>
+        
+        <Greetings lang="de" >
+          
+      </Greetings>
       <Greetings lang="fr">François</Greetings>
       <Greetings lang="en">Peter</Greetings>
       <Greetings lang="es">Luka</Greetings>

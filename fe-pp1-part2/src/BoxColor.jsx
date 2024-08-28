@@ -5,14 +5,19 @@ const BoxColor = (props) => {
   };
 
   const toHexStringProp = () => {
-    const rHexString = toHexString(props.r);
+    const rHexString =
+      toHexString(props.r).length === 1
+        ? `0${toHexString(props.r)}`
+        : toHexString(props.r);
     const gHexString =
-      toHexString(props.g) === '0' ? '00' : toHexString(props.g);
+      toHexString(props.g).length === 1
+        ? `0${toHexString(props.g)}`
+        : toHexString(props.g);
     const bHexString =
-      toHexString(props.b) === '0' ? '00' : toHexString(props.b);
-    console.log(rHexString);
-    console.log(gHexString);
-    console.log(bHexString);
+      toHexString(props.b).length === 1
+        ? `0${toHexString(props.b)}`
+        : toHexString(props.b);
+
     return `#${rHexString}${gHexString}${bHexString}`;
   };
 

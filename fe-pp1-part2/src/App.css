@@ -2,9 +2,15 @@ h3 {
   text-align: center;
 }
 
-
 .App-logo {
   display: block;
   margin: 0 auto;
   width: 200px;
+}
+
+.credit-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 5px;
 }

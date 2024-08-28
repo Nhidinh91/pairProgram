@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import './Components.css';
 
+
 const IdCard = ({firstName, lastName, gender, height, birth, picture})=>{
     return(
         <div className = "card">

@@ -1,0 +1,44 @@
+.card-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 10px;
+  width: 30%;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+.image-line {
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+}
+.blank-space {
+  width: 70%;
+}
+.image-line img {
+  width: 10%;
+  justify-self: end;
+  width: 30%;
+  height: auto;
+}
+.number-line p {
+  justify-self: center;
+  text-align: center;
+  font-size: 28px;
+}
+.date-bank-owner-line {
+  display: flex;
+  flex-direction: column;
+}
+.date-bank-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: baseline;
+
+}
+.date-part {
+  margin-right: 1rem;
+  justify-self: end;
+}
